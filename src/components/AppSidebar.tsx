@@ -1,5 +1,5 @@
 
-import { Home, ShoppingBag, User, Heart, Settings, Filter } from 'lucide-react';
+import { Home, ShoppingBag, User, Heart, Settings } from 'lucide-react';
 import {
   Sidebar,
   SidebarContent,
@@ -23,25 +23,24 @@ const categories = [
 
 export function AppSidebar() {
   return (
-    <Sidebar className="border-r border-tunisia-blue/20">
-      <SidebarHeader className="p-6">
-        <h1 className="text-2xl font-serif font-bold text-black">
+    <Sidebar className="border-r border-gray-200 bg-white">
+      <SidebarHeader className="p-8 border-b border-gray-100">
+        <h1 className="text-2xl font-sans font-light tracking-[0.2em] text-black">
           ATELIER
-          <span className="text-bergandi-red">.</span>
         </h1>
       </SidebarHeader>
       
-      <SidebarContent>
+      <SidebarContent className="p-6">
         <SidebarGroup>
-          <SidebarGroupLabel className="text-tunisia-blue font-medium">Navigation</SidebarGroupLabel>
+          <SidebarGroupLabel className="text-xs font-medium text-gray-500 uppercase tracking-[0.2em] mb-4">Navigation</SidebarGroupLabel>
           <SidebarGroupContent>
-            <SidebarMenu>
+            <SidebarMenu className="space-y-2">
               {categories.map((item) => (
                 <SidebarMenuItem key={item.title}>
-                  <SidebarMenuButton asChild className="hover:bg-tunisia-blue/10 hover:text-tunisia-blue">
-                    <a href={item.url} className="flex items-center gap-3">
+                  <SidebarMenuButton asChild className="hover:bg-gray-50 text-black font-light tracking-wide">
+                    <a href={item.url} className="flex items-center gap-4 py-3">
                       <item.icon className="w-4 h-4" />
-                      <span>{item.title}</span>
+                      <span className="text-sm">{item.title}</span>
                     </a>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
@@ -50,33 +49,33 @@ export function AppSidebar() {
           </SidebarGroupContent>
         </SidebarGroup>
 
-        <SidebarGroup>
-          <SidebarGroupLabel className="text-tunisia-blue font-medium">Categories</SidebarGroupLabel>
+        <SidebarGroup className="mt-8">
+          <SidebarGroupLabel className="text-xs font-medium text-gray-500 uppercase tracking-[0.2em] mb-4">Categories</SidebarGroupLabel>
           <SidebarGroupContent>
-            <SidebarMenu>
+            <SidebarMenu className="space-y-2">
               <SidebarMenuItem>
-                <SidebarMenuButton className="hover:bg-tunisia-blue/10 hover:text-tunisia-blue">
-                  <span>Dresses</span>
+                <SidebarMenuButton className="hover:bg-gray-50 text-black font-light tracking-wide">
+                  <span className="text-sm py-2">Outerwear</span>
                 </SidebarMenuButton>
               </SidebarMenuItem>
               <SidebarMenuItem>
-                <SidebarMenuButton className="hover:bg-tunisia-blue/10 hover:text-tunisia-blue">
-                  <span>Tops</span>
+                <SidebarMenuButton className="hover:bg-gray-50 text-black font-light tracking-wide">
+                  <span className="text-sm py-2">Knitwear</span>
                 </SidebarMenuButton>
               </SidebarMenuItem>
               <SidebarMenuItem>
-                <SidebarMenuButton className="hover:bg-tunisia-blue/10 hover:text-tunisia-blue">
-                  <span>Bottoms</span>
+                <SidebarMenuButton className="hover:bg-gray-50 text-black font-light tracking-wide">
+                  <span className="text-sm py-2">Denim</span>
                 </SidebarMenuButton>
               </SidebarMenuItem>
               <SidebarMenuItem>
-                <SidebarMenuButton className="hover:bg-tunisia-blue/10 hover:text-tunisia-blue">
-                  <span>Outerwear</span>
+                <SidebarMenuButton className="hover:bg-gray-50 text-black font-light tracking-wide">
+                  <span className="text-sm py-2">Shirting</span>
                 </SidebarMenuButton>
               </SidebarMenuItem>
               <SidebarMenuItem>
-                <SidebarMenuButton className="hover:bg-tunisia-blue/10 hover:text-tunisia-blue">
-                  <span>Accessories</span>
+                <SidebarMenuButton className="hover:bg-gray-50 text-black font-light tracking-wide">
+                  <span className="text-sm py-2">Accessories</span>
                 </SidebarMenuButton>
               </SidebarMenuItem>
             </SidebarMenu>

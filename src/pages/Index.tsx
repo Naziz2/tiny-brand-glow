@@ -14,8 +14,8 @@ const Index = () => {
       <div className="min-h-screen flex w-full">
         <AppSidebar />
         <main className="flex-1">
-          <div className="p-4 border-b border-tunisia-blue/20">
-            <SidebarTrigger className="text-tunisia-blue hover:bg-tunisia-blue/10" />
+          <div className="p-6 border-b border-gray-200 bg-white">
+            <SidebarTrigger className="text-black hover:bg-gray-100 p-2" />
           </div>
           <Hero />
           <FeaturedProducts />
