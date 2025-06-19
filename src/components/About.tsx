@@ -7,17 +7,17 @@ const About = () => {
           {/* Content */}
           <div className="space-y-6">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-black">
-              Our Philosophy
+              Our Story
             </h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p className="text-lg">
-                We believe in the power of simplicity. Every product we create is born from the intersection of functionality and beauty, designed to enhance your daily rituals.
+                Founded on the belief that great style shouldn't come at the cost of comfort or conscience, we create clothing that moves with you through life's moments.
               </p>
               <p>
-                Our approach is rooted in sustainability and mindful consumption. We choose quality over quantity, creating pieces that are built to last and improve with time.
+                Every piece in our collection is carefully crafted from sustainable materials, designed to be versatile, and built to last beyond seasons and trends.
               </p>
               <p>
-                From our studio to your space, each item carries the story of careful craftsmanship and intentional design.
+                From our design studio to your wardrobe, each garment tells a story of thoughtful creation and timeless appeal.
               </p>
             </div>
             <button className="bg-black text-white px-8 py-3 text-sm font-medium uppercase tracking-wider hover:bg-gray-800 transition-colors duration-300">
@@ -28,8 +28,8 @@ const About = () => {
           {/* Image */}
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1524230572899-a752b3835840?q=80&w=3464&auto=format&fit=crop"
-              alt="Minimal architecture"
+              src="https://images.unsplash.com/photo-1445205170230-053b83016050?q=80&w=3464&auto=format&fit=crop"
+              alt="Fashion design process"
               className="w-full h-96 lg:h-[500px] object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>

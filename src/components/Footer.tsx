@@ -1,9 +1,9 @@
 
 const Footer = () => {
   const footerLinks = {
-    shop: ['All Products', 'New Arrivals', 'Best Sellers', 'Sale'],
-    about: ['Our Story', 'Sustainability', 'Craftsmanship', 'Press'],
-    support: ['Contact', 'Shipping', 'Returns', 'Size Guide'],
+    shop: ['Women', 'Men', 'New Arrivals', 'Sale'],
+    about: ['Our Story', 'Sustainability', 'Size Guide', 'Care Instructions'],
+    support: ['Contact', 'Shipping', 'Returns', 'FAQ'],
   };
 
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <h3 className="text-2xl font-serif font-bold text-black mb-4">ATELIER</h3>
             <p className="text-gray-600 text-sm leading-relaxed mb-4">
-              Crafting beautiful, functional design pieces that enhance everyday life through mindful creation.
+              Contemporary fashion designed for the modern lifestyle. Quality pieces that transcend seasons.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-600 hover:text-black transition-colors duration-200">

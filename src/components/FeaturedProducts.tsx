@@ -3,24 +3,24 @@ const FeaturedProducts = () => {
   const products = [
     {
       id: 1,
-      name: "Essential Notebook",
+      name: "Essential Tee",
       price: "$45",
-      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=4846&auto=format&fit=crop",
-      category: "Stationery"
+      image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=4846&auto=format&fit=crop",
+      category: "Basics"
     },
     {
       id: 2,
-      name: "Minimal Workspace",
-      price: "$120",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=6000&auto=format&fit=crop",
-      category: "Furniture"
+      name: "Tailored Blazer",
+      price: "$180",
+      image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=6000&auto=format&fit=crop",
+      category: "Outerwear"
     },
     {
       id: 3,
-      name: "Design Collection",
-      price: "$85",
-      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=6000&auto=format&fit=crop",
-      category: "Books"
+      name: "Classic Denim",
+      price: "$95",
+      image: "https://images.unsplash.com/photo-1542272604-787c3835535d?q=80&w=6000&auto=format&fit=crop",
+      category: "Denim"
     }
   ];
 
@@ -30,10 +30,10 @@ const FeaturedProducts = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-black mb-4">
-            Featured Collection
+            New Arrivals
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Each piece in our collection is carefully curated to bring beauty and functionality to your daily life.
+            Thoughtfully designed pieces that blend comfort with contemporary style for every occasion.
           </p>
         </div>
 
@@ -71,7 +71,7 @@ const FeaturedProducts = () => {
         {/* View All Button */}
         <div className="text-center mt-12">
           <button className="border border-black text-black px-8 py-3 text-sm font-medium uppercase tracking-wider hover:bg-black hover:text-white transition-colors duration-300">
-            View All Products
+            Shop All
           </button>
         </div>
       </div>
