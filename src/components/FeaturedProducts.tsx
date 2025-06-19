@@ -32,6 +32,7 @@ const FeaturedProducts = () => {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-black mb-4">
             New Arrivals
           </h2>
+          <div className="w-20 h-1 bg-gradient-to-r from-tunisia-blue to-bergandi-red mx-auto mb-4"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Thoughtfully designed pieces that blend comfort with contemporary style for every occasion.
           </p>
@@ -51,13 +52,13 @@ const FeaturedProducts = () => {
                   alt={product.name}
                   className="w-full h-80 object-cover transition-transform duration-700 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-tunisia-blue/0 to-transparent group-hover:from-tunisia-blue/10 transition-colors duration-300"></div>
               </div>
               <div className="space-y-2">
-                <p className="text-xs uppercase tracking-wider text-gray-500 font-medium">
+                <p className="text-xs uppercase tracking-wider text-bergandi-red font-medium">
                   {product.category}
                 </p>
-                <h3 className="text-lg font-serif font-medium text-black group-hover:text-gray-600 transition-colors duration-200">
+                <h3 className="text-lg font-serif font-medium text-black group-hover:text-tunisia-blue transition-colors duration-200">
                   {product.name}
                 </h3>
                 <p className="text-sm font-medium text-black">
@@ -70,7 +71,7 @@ const FeaturedProducts = () => {
 
         {/* View All Button */}
         <div className="text-center mt-12">
-          <button className="border border-black text-black px-8 py-3 text-sm font-medium uppercase tracking-wider hover:bg-black hover:text-white transition-colors duration-300">
+          <button className="border-2 border-tunisia-blue text-tunisia-blue px-8 py-3 text-sm font-medium uppercase tracking-wider hover:bg-tunisia-blue hover:text-white transition-colors duration-300">
             Shop All
           </button>
         </div>

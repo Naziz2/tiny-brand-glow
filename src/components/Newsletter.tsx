@@ -11,7 +11,7 @@ const Newsletter = () => {
   };
 
   return (
-    <section className="py-20 bg-black text-white">
+    <section className="py-20 bg-gradient-to-br from-tunisia-blue via-black to-bergandi-red text-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold mb-6">
           Stay in Style
@@ -32,7 +32,7 @@ const Newsletter = () => {
             />
             <button
               type="submit"
-              className="bg-white text-black px-8 py-3 text-sm font-medium uppercase tracking-wider hover:bg-gray-100 transition-colors duration-300"
+              className="bg-white text-tunisia-blue px-8 py-3 text-sm font-medium uppercase tracking-wider hover:bg-gray-100 hover:text-bergandi-red transition-colors duration-300"
             >
               Subscribe
             </button>

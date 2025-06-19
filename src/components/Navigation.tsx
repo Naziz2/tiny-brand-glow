@@ -18,7 +18,10 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-serif font-bold text-black">ATELIER</h1>
+            <h1 className="text-2xl font-serif font-bold text-black">
+              ATELIER
+              <span className="text-bergandi-red">.</span>
+            </h1>
           </div>
 
           {/* Desktop Navigation */}
@@ -28,10 +31,10 @@ const Navigation = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-sm font-medium text-gray-900 hover:text-gray-600 transition-colors duration-200 relative group"
+                  className="text-sm font-medium text-gray-900 hover:text-tunisia-blue transition-colors duration-200 relative group"
                 >
                   {item.name}
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-bergandi-red transition-all duration-300 group-hover:w-full"></span>
                 </a>
               ))}
             </div>
@@ -41,7 +44,7 @@ const Navigation = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-900 hover:text-gray-600 focus:outline-none"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-900 hover:text-tunisia-blue focus:outline-none"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -57,7 +60,7 @@ const Navigation = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="block px-3 py-2 text-base font-medium text-gray-900 hover:text-gray-600 transition-colors duration-200"
+                className="block px-3 py-2 text-base font-medium text-gray-900 hover:text-tunisia-blue transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}

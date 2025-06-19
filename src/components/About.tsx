@@ -9,6 +9,7 @@ const About = () => {
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-black">
               Our Story
             </h2>
+            <div className="w-16 h-1 bg-gradient-to-r from-bergandi-red to-tunisia-blue"></div>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p className="text-lg">
                 Founded on the belief that great style shouldn't come at the cost of comfort or conscience, we create clothing that moves with you through life's moments.
@@ -20,7 +21,7 @@ const About = () => {
                 From our design studio to your wardrobe, each garment tells a story of thoughtful creation and timeless appeal.
               </p>
             </div>
-            <button className="bg-black text-white px-8 py-3 text-sm font-medium uppercase tracking-wider hover:bg-gray-800 transition-colors duration-300">
+            <button className="bg-gradient-to-r from-tunisia-blue to-bergandi-red text-white px-8 py-3 text-sm font-medium uppercase tracking-wider hover:from-tunisia-blue/90 hover:to-bergandi-red/90 transition-all duration-300">
               Learn More
             </button>
           </div>
@@ -32,7 +33,7 @@ const About = () => {
               alt="Fashion design process"
               className="w-full h-96 lg:h-[500px] object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-tunisia-blue/10 via-transparent to-bergandi-red/5"></div>
           </div>
         </div>
       </div>

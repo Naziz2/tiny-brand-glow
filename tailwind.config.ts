@@ -24,6 +24,9 @@ export default {
 				'sans': ['Inter', 'sans-serif'],
 			},
 			colors: {
+				'bergandi-red': '#C73E1D',
+				'tunisia-blue': '#1E40AF',
+				'tunisia-blue-light': '#3B82F6',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
